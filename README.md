@@ -7,5 +7,11 @@ Borrowed(stole :P) clock from [w3school][http://www.w3schools.com/canvas/canvas_
 Only when you edit clock.js and want to update bundle.
 
 ```bash
-browserify --standalone clock clock.js > bundle.js -d
+browserify --standalone clock clock.js > bundle.js
 ```
+
+#GIF
+
+Record on linux thanks to [byzanz][https://www.maketecheasier.com/record-screen-as-animated-gif-ubuntu/]
+![Demo](https://github.com/alfredwesterveld/clock/raw/master/clock.gif)
+
