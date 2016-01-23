@@ -13,5 +13,5 @@ browserify --standalone clock clock.js > bundle.js
 #GIF
 
 Record on linux thanks to [byzanz][https://www.maketecheasier.com/record-screen-as-animated-gif-ubuntu/]
-![Demo](https://github.com/alfredwesterveld/clock/raw/master/clock.gif)
+![Demo](https://github.com/alfredwesterveld/analog-clock/raw/master/clock.gif)
 
