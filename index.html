@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <canvas id="canvas" width="300" height="300" style="background-color:#333"></canvas>
-    <script src="bundle.js"></script>
-    <script>clock("canvas")</script>
+    <script src="https://cdn.jsdelivr.net/riot/2.3.13/riot.min.js"></script>
+    <script src="index.js"></script>
+    <clock radius="300"></clock>
+    <hr />
+    <clock></clock>
+    <script>riot.mount("clock")</script>
 </body>
 </html>

@@ -1,0 +1,25 @@
+{
+  "name": "analog-clock-riot",
+  "version": "0.0.1",
+  "description": "analog clock riot component",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfredwesterveld/analog-clock.git"
+  },
+  "keywords": [
+    "analog",
+    "clock",
+    "riot",
+    "component"
+  ],
+  "author": "Alfred Westerveld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfredwesterveld/analog-clock/issues"
+  },
+  "homepage": "https://github.com/alfredwesterveld/analog-clock#readme"
+}

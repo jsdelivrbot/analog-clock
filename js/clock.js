@@ -1,7 +1,6 @@
 // thank you w2
 
-module.exports = function clock(id) {
-    var canvas = document.getElementById(id)
+module.exports = function clock(canvas) {
     var ctx = canvas.getContext("2d")
     var radius = canvas.height / 2
     ctx.translate(radius, radius)
