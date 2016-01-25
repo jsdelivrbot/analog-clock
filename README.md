@@ -1,9 +1,9 @@
-#Analog clock [![ghit.me](https://ghit.me/badge.svg?repo=alfredwesterveld/analog-clock)](https://ghit.me/repo/alfredwesterveld/analog-clock)
+# Analog clock [![ghit.me](https://ghit.me/badge.svg?repo=alfredwesterveld/analog-clock)](https://ghit.me/repo/alfredwesterveld/analog-clock)
 
 Borrowed(stole :P) clock from [w3school](http://www.w3schools.com/canvas/canvas_clock.asp) and made as riot tag(component).
 In your html you could just do `<clock radius="{radius}"><clock>` anywhere you like(even multiple times). But you need [riot.js](http://riotjs.com/) for this. See complete example(s) below which also links to runnable [codepen](http://codepen.io/alfredwesterveld/pen/NxyePR) (plain javascript).
 
-To understand these attributes better I picture explains better than a thousand words so I would advise to look codepen and modify real time.
+To understand these attributes better a picture explains better than a thousand words, so I would advise to look at codepen and modify attributes real time to see what happens.
 
 `<clock>`
 - `radius="{int}"`
@@ -12,19 +12,20 @@ To understand these attributes better I picture explains better than a thousand 
     background color canvas outside of clock.
 - `bg_clock={color}`
     background color inside of clock.
-- `inner_rim={color}`
-    color rim inside of clock.
+- `plates_inner_rim={color}`
+    background color plates(arrows pointing to time) plus background color rim inside of clock.
 - `outer_rim`
+    backgrond color outer rim
 - `rim={color}`
     the rest of the rim
-- 
-#How would it look like (animated GIF below)
+
+# How would it look like (animated GIF below)
 
 I Recorded the clock as gif on linux thanks to [byzanz](https://www.maketecheasier.com/record-screen-as-animated-gif-ubuntu/)
 
 
 ![Demo](https://cdn.rawgit.com/alfredwesterveld/analog-clock/master/clock.gif)
-#Example plain javascript
+# Example plain javascript
 
 You could just copy paste this example.
 Also available at [codepen](http://codepen.io/alfredwesterveld/pen/NxyePR)
@@ -43,6 +44,8 @@ Also available at [codepen](http://codepen.io/alfredwesterveld/pen/NxyePR)
     
     <!-- standard clock -->
     <clock></clock>
+    
+    <!-- Your copy of riot from cdn for example -->
     <script src="js/riot.min.js"></script>
     <script src="bundle.js"></script>
     <script>
@@ -51,4 +54,3 @@ Also available at [codepen](http://codepen.io/alfredwesterveld/pen/NxyePR)
 </body>
 </html>
 ```
-
