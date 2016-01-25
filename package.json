@@ -1,6 +1,6 @@
 {
   "name": "analog-clock-riot",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "analog clock riot component",
   "main": "bundle.js",
   "scripts": {
