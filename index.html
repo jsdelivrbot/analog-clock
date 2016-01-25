@@ -2,13 +2,19 @@
 <html>
 <body>
     <h1>Clock webpack live reload :)</h1>
-    <clock radius="400" canvas_bg="grey" clock_bg="yellow" platesinnerrim="red" 
-        rim="purple" knob="brown">
+    <!-- Completely modified clock -->
+    <clock radius="400" bg_canvas="grey" bg_clock="yellow" plates_inner_rim="red" 
+        rim="purple" knob="brown" outer_rim="orange">
     </clock>
     
-    <clock radius="100" bg="transparant"></clock>
+    <!-- Background transparant -->
+    <clock radius="100" bg_canvas="transparant"></clock>
+    
     <clock></clock>
-    <script src="bundle.js" /></script>
-    <script>riot.mount("clock")</script>
+    <script src="js/riot.min.js"></script>
+    <script src="bundle.js"></script>
+    <script>
+        riot.mount("clock")
+    </script>
 </body>
 </html>
