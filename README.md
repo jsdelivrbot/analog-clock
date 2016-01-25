@@ -1,4 +1,4 @@
-#Analog clock
+#Analog clock [![ghit.me](https://ghit.me/badge.svg?repo=alfredwesterveld/analog-clock)](https://ghit.me/repo/alfredwesterveld/analog-clock)
 
 Borrowed(stole :P) clock from [w3school](http://www.w3schools.com/canvas/canvas_clock.asp) and made as riot tag(component).
 In your html you could just do `<clock radius="{radius}"><clock>` anywhere you like(even multiple times). But you need [riot.js](http://riotjs.com/) for this. See complete example(s) below which also links to runnable [codepen](http://codepen.io/alfredwesterveld/pen/NxyePR) (plain javascript).
