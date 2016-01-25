@@ -24,7 +24,7 @@ module.exports = function clock(canvas, options) {
         ctx.fillStyle = options.bg_clock || "white"
         ctx.fill()
         grad = ctx.createRadialGradient(0, 0, radius * 0.95, 0, 0, radius * 1.05)
-        grad.addColorStop(0, options.plates_inner_rim || '#333')
+        grad.addColorStop(0, options.inner_rim || '#333')
         grad.addColorStop(0.5, options.rim ||'white')
         grad.addColorStop(1, options.outer_rim || '#333')
         ctx.strokeStyle = grad

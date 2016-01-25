@@ -3,9 +3,25 @@
 Borrowed(stole :P) clock from [w3school](http://www.w3schools.com/canvas/canvas_clock.asp) and made as riot tag(component).
 In your html you could just do `<clock radius="{radius}"><clock>` anywhere you like(even multiple times). But you need [riot.js](http://riotjs.com/) for this. See complete example(s) below which also links to runnable [codepen](http://codepen.io/alfredwesterveld/pen/NxyePR) (plain javascript).
 
+To understand these attributes better I picture explains better than a thousand words so I would advise to look codepen and modify real time.
+
+`<clock>`
+- `radius="{int}"`
+    radius in pixels. Canvas will be this big, but clock only 90%.
+- `bg_canvas={color}`
+    background color canvas outside of clock.
+- `bg_clock={color}`
+    background color inside of clock.
+- `inner_rim={color}`
+    color rim inside of clock.
+- `outer_rim`
+- `rim={color}`
+    the rest of the rim
+- 
 #How would it look like (animated GIF below)
 
 I Recorded the clock as gif on linux thanks to [byzanz](https://www.maketecheasier.com/record-screen-as-animated-gif-ubuntu/)
+
 
 ![Demo](https://cdn.rawgit.com/alfredwesterveld/analog-clock/master/clock.gif)
 #Example plain javascript
@@ -16,15 +32,22 @@ Also available at [codepen](http://codepen.io/alfredwesterveld/pen/NxyePR)
 <!DOCTYPE html>
 <html>
 <body>
-    <h1>Clock</h1>
+    <h1>Clock webpack live reload :)</h1>
+    <!-- Completely modified clock (ugly, but show good properties ;) ) -->
+    <clock radius="400" bg_canvas="grey" bg_clock="yellow" plates_inner_rim="red" 
+        rim="purple" knob="brown" outer_rim="orange">
+    </clock>
     
-    <-- first clock with radius of 300(px) -->
-    <clock radius="300"></clock>
-    <hr />
+    <!-- Background transparant -->
+    <clock radius="100" bg_canvas="transparant"></clock>
+    
+    <!-- standard clock -->
     <clock></clock>
-    <script src="https://cdn.jsdelivr.net/riot/2.3.13/riot.min.js"></script>
-    <script src="https://rawgit.com/alfredwesterveld/analog-clock/master/index.js"></script>
-    <script>riot.mount("clock")</script>
+    <script src="js/riot.min.js"></script>
+    <script src="bundle.js"></script>
+    <script>
+        riot.mount("clock")
+    </script>
 </body>
 </html>
 ```
