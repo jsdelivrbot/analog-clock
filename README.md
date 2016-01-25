@@ -3,7 +3,7 @@
 Borrowed(stole :P) clock from [w3school](http://www.w3schools.com/canvas/canvas_clock.asp) and made as riot tag(component).
 In your html you could just do `<clock radius="{radius}"><clock>` anywhere you like(even multiple times). But you need [riot.js](http://riotjs.com/) for this. See complete example(s) below which also links to runnable [codepen](http://codepen.io/alfredwesterveld/pen/NxyePR) (plain javascript).
 
-#How would (GIF below)
+#How would it look like (animated GIF below)
 
 I Recorded the clock as gif on linux thanks to [byzanz](https://www.maketecheasier.com/record-screen-as-animated-gif-ubuntu/)
 

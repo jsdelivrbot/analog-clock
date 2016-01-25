@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <h1>Clock</h1>
-    <clock radius="300"></clock>
-    <hr />
+    <h1>Clock webpack live reload :)</h1>
+    <clock radius="400" canvas_bg="grey" clock_bg="yellow" platesinnerrim="red" 
+        rim="purple" knob="brown">
+    </clock>
+    
+    <clock radius="100" bg="transparant"></clock>
     <clock></clock>
-    <script src="https://cdn.jsdelivr.net/riot/2.3.13/riot.min.js"></script>
-    <script src="https://rawgit.com/alfredwesterveld/analog-clock/master/index.js"></script>
+    <script src="bundle.js" /></script>
     <script>riot.mount("clock")</script>
 </body>
 </html>

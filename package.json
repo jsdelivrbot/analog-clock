@@ -4,7 +4,8 @@
   "description": "analog clock riot component",
   "main": "bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webbug": "webpack-dev-server -d --inline"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/alfredwesterveld/analog-clock/issues"
   },
-  "homepage": "https://github.com/alfredwesterveld/analog-clock#readme"
+  "homepage": "https://github.com/alfredwesterveld/analog-clock#readme",
+  "devDependencies": {
+    "riot": "^2.3.13",
+    "tag-loader": "^0.3.0",
+    "webpack": "^1.12.12"
+  }
 }

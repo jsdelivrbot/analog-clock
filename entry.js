@@ -1,2 +1,3 @@
+global.riot = require('riot')
 global.clock = require('./js/clock')
-require('./tags/clock')
+require('./tags/clock.tag')

@@ -1,8 +1,12 @@
 <clock>
-    <canvas name="canvas" width="{opts.radius || 200}" height="{opts.radius || 200}" style="background-color:#333"></canvas>
+    <canvas name="canvas">
+    </canvas>
     <script>
         this.on('mount', function () {
-            clock(this.canvas)
+            this.canvas.style.backgroundColor = opts.canvas_bg || '#333'
+            this.canvas.width = opts.radius || 200
+            this.canvas.height = opts.radius || 200
+            clock(this.canvas, opts)
         })
     </script>
 </clock>
