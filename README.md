@@ -7,8 +7,7 @@ In your html you could just do `<clock radius="{radius}"><clock>` anywhere you l
 
 I Recorded the clock as gif on linux thanks to [byzanz](https://www.maketecheasier.com/record-screen-as-animated-gif-ubuntu/)
 
-
-![Demo](https://github.com/alfredwesterveld/analog-clock/raw/master/clock.gif)
+![Demo](https://cdn.rawgit.com/alfredwesterveld/analog-clock/master/clock.gif)
 #Example plain javascript
 
 You could just copy paste this example.
