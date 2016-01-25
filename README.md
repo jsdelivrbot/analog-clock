@@ -1,16 +1,25 @@
 #Analog clock
 
 Borrowed(stole :P) clock from [w3school](http://www.w3schools.com/canvas/canvas_clock.asp) and made as riot tag(component).
-In your html you could just do `<clock radius="{radius}"><clock>`. But you need [riot.js](http://riotjs.com/) for this. See complete example below which also links to runnable codepen.
+In your html you could just do `<clock radius="{radius}"><clock>` anywhere you like(even multiple times). But you need [riot.js](http://riotjs.com/) for this. See complete example(s) below which also links to runnable [codepen](http://codepen.io/alfredwesterveld/pen/NxyePR) (plain javascript).
 
-#Example
+#How would (GIF below)
 
+I Recorded the clock as gif on linux thanks to [byzanz](https://www.maketecheasier.com/record-screen-as-animated-gif-ubuntu/)
+
+
+![Demo](https://github.com/alfredwesterveld/analog-clock/raw/master/clock.gif)
+#Example plain javascript
+
+You could just copy paste this example.
 Also available at [codepen](http://codepen.io/alfredwesterveld/pen/NxyePR)
 ```html
 <!DOCTYPE html>
 <html>
 <body>
     <h1>Clock</h1>
+    
+    <-- first clock with radius of 300(px) -->
     <clock radius="300"></clock>
     <hr />
     <clock></clock>
@@ -21,7 +30,3 @@ Also available at [codepen](http://codepen.io/alfredwesterveld/pen/NxyePR)
 </html>
 ```
 
-Record clock as gif on linux thanks to [byzanz](https://www.maketecheasier.com/record-screen-as-animated-gif-ubuntu/)
-
-
-![Demo](https://github.com/alfredwesterveld/analog-clock/raw/master/clock.gif)
